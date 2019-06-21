@@ -15,3 +15,4 @@ if(isset($_POST["submit"])) {
     mail($name, $subject, $text, $headers);
     header("Location: index.html?mailsend");
 }
+?>
